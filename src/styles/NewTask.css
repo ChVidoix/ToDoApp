@@ -1,0 +1,27 @@
+label {
+  display: block;
+}
+
+p {
+  font-size: 0.6rem;
+}
+
+input {
+  margin-top: 15px;
+}
+
+.submit {
+  height: 30px;
+  width: 100px;
+}
+
+input[type="text"],
+input[type="date"] {
+  width: 30%;
+}
+
+.error {
+  font-size: 80px;
+  font-weight: bolder;
+  line-height: 80vh;
+}

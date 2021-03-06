@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.top,
+.bottom {
+  display: flex;
+  height: 40vh;
+  margin-top: 50px;
+  justify-content: space-around;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.mainList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.activeTasks,
+.inactiveTasks {
+  width: 50%;
+}
+
+.recent {
+  height: 50vh;
+  margin-top: 5rem;
+}
